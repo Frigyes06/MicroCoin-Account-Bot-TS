@@ -1,0 +1,32 @@
+{
+  "devDependencies": {
+    "@types/node": "^18.0.6",
+    "typescript": "^4.7.4"
+  },
+  "name": "microcoin-ts",
+  "version": "1.0.0",
+  "description": "a discord bot but in TypeScript.",
+  "main": "./production/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node -r dotenv/config ./production/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Frigyes06/MicroCoin-Account-Bot-TS.git"
+  },
+  "author": "Frigyes06",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Frigyes06/MicroCoin-Account-Bot-TS/issues"
+  },
+  "homepage": "https://github.com/Frigyes06/MicroCoin-Account-Bot-TS/blob/main/README.md",
+  "dependencies": {
+    "@discordjs/builders": "^1.0.0",
+    "@discordjs/rest": "^1.0.0",
+    "chalk": "^5.0.1",
+    "discord.js": "^14.0.3",
+    "dotenv": "^16.0.1"
+  }
+}
